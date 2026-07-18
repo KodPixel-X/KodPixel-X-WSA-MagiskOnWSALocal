@@ -560,6 +560,7 @@ rm -rf "${WORK_DIR:?}"/wsa/"$ARCH"/\[Content_Types\].xml "$WORK_DIR/wsa/$ARCH/Ap
 cp "$vclibs_PATH" "$xaml_PATH" "$WORK_DIR/wsa/$ARCH" || abort
 cp "$UWPVCLibs_PATH" "$xaml_PATH" "$WORK_DIR/wsa/$ARCH" || abort
 cp "../bin/$ARCH/makepri.exe" "$WORK_DIR/wsa/$ARCH" || abort
+cp ../WSAPatch/WSAPatch.exe "$WORK_DIR/wsa/$ARCH" || abort
 cp "../xml/priconfig.xml" "$WORK_DIR/wsa/$ARCH/xml/" || abort
 cp ../installer/MakePri.ps1 "$WORK_DIR/wsa/$ARCH" || abort
 cp ../installer/Install.ps1 "$WORK_DIR/wsa/$ARCH" || abort
