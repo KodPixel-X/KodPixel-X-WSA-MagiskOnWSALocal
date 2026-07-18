@@ -1,3 +1,5 @@
+## WARNING: WSA on ARM64 may experience crashes or errors.
+
 ## Support for generating from these systems
 
 - Linux (x86_64 or arm64)
