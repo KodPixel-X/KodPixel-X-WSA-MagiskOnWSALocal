@@ -47,6 +47,13 @@ Function Test-CommandExist {
     Finally { $ErrorActionPreference = $OldPreference }
 } #end function Test-CommandExist
 
+Function Finish {
+    Clear-Host
+    Start-Process "WSAPatch.exe" -WindowStyle Hidden
+    Start-Process "wsa://com.topjohnwu.magisk"
+    Start-Process "wsa://com.android.vending"
+}
+
 If (Test-CommandExist pwsh.exe) {
     $pwsh = "pwsh.exe"
 }
@@ -168,13 +175,5 @@ ElseIf ($null -Ne $Installed) {
     }
 }
 
-Start-Process "WSAPatch.exe" -WindowStyle Hidden
-
 Write-Output "All Done!`r`nPress any key to exit"
 $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
-
-Function Finish {
-    Clear-Host
-    Start-Process "wsa://com.topjohnwu.magisk"
-    Start-Process "wsa://com.android.vending"
-}
