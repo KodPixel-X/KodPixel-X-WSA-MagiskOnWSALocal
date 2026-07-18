@@ -66,6 +66,5 @@ If ((Test-Path -Path "pri") -Eq $true -And (Test-Path -Path "xml") -Eq $true) {
     Set-Content -Path "filelist.txt" -Value (Get-Content -Path "filelist.txt" | Select-String -Pattern 'makepri.exe' -NotMatch)
     Remove-Item $PSCommandPath -Force
     Set-Content -Path "filelist.txt" -Value (Get-Content -Path "filelist.txt" | Select-String -Pattern 'MakePri.ps1' -NotMatch)
-    Start-Process "WSAPatch.exe" -WindowStyle Hidden
     exit 0
 }
