@@ -163,14 +163,15 @@
 
 ## Credits
 
-* [StoreLib](https://github.com/StoreDev/StoreLib): API for downloading WSA
-* [Magisk](https://github.com/topjohnwu/Magisk): The most famous root solution on Android
-* ~~[The Open GApps Project](https://opengapps.org): One of the most famous Google Apps packages solution~~
-* [WSA-Kernel-SU](https://github.com/LSPosed/WSA-Kernel-SU) and [kernel-assisted-superuser](https://git.zx2c4.com/kernel-assisted-superuser/): The kernel `su` for debugging Magisk Integration
-* ~~[WSAGAScript](https://github.com/ADeltaX/WSAGAScript): The first GApps integration script for WSA~~
-* ~~[erofs-utils](https://github.com/sekaiacg/erofs-utils): Pre-build `erofs-utils` with erofsfuse enabled~~
-* **KodPixel-X**: Fork maintainer of WSAPackages-MagiskOnWSALocal and custom modifications
+- [StoreLib](https://github.com/StoreDev/StoreLib): API for downloading WSA
+- [Magisk](https://github.com/topjohnwu/Magisk): The most famous root solution on Android
+- ~~[The Open GApps Project](https://opengapps.org): One of the most famous Google Apps packages solution~~
+- [WSA-Kernel-SU](https://github.com/LSPosed/WSA-Kernel-SU) and [kernel-assisted-superuser](https://git.zx2c4.com/kernel-assisted-superuser/): The kernel `su` for debugging Magisk Integration
+- ~~[WSAGAScript](https://github.com/ADeltaX/WSAGAScript): The first GApps integration script for WSA~~
+- ~~[erofs-utils](https://github.com/sekaiacg/erofs-utils): Pre-build `erofs-utils` with erofsfuse enabled~~
+- [WSAPatch](https://github.com/wesmar/WSAPatch): WSA patching solution
+- **KodPixel-X**: Maintainer of WSAPackages-MagiskOnWSALocal and custom modifications
 
-*The repository is provided as a utility.*
+_The repository is provided as a utility._
 
-*Android is a trademark of Google LLC. Windows is a trademark of Microsoft Corporation.*
+_Android is a trademark of Google LLC. Windows is a trademark of Microsoft Corporation._
