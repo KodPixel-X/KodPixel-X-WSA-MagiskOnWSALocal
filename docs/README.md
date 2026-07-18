@@ -1,9 +1,3 @@
-# Magisk on WSA (with Google Apps)
-
-:warning: Magisk on WSA will no longer be available after March 5, 2025. [Learn more](https://learn.microsoft.com/en-us/windows/android/wsa/).
-
-:warning: For fork developers: Please don't build using GitHub Actions, as GitHub will count your forked GitHub Actions usage against this upstream repository, which may cause this upstream repository gets disabled by GitHub staff like [MagiskOnWSA](https://github.com/LSPosed/MagiskOnWSA) because of numerous forks building GitHub Actions, and counting the forks' Action usage against this upstream repository.
-
 ## Support for generating from these systems
 
 - Linux (x86_64 or arm64)
@@ -169,13 +163,14 @@
 
 ## Credits
 
-- [StoreLib](https://github.com/StoreDev/StoreLib): API for downloading WSA
-- [Magisk](https://github.com/topjohnwu/Magisk): The most famous root solution on Android
-- ~~[The Open GApps Project](https://opengapps.org): One of the most famous Google Apps packages solution~~
-- [WSA-Kernel-SU](https://github.com/LSPosed/WSA-Kernel-SU) and [kernel-assisted-superuser](https://git.zx2c4.com/kernel-assisted-superuser/): The kernel `su` for debugging Magisk Integration
-- ~~[WSAGAScript](https://github.com/ADeltaX/WSAGAScript): The first GApps integration script for WSA~~
-- ~~[erofs-utils](https://github.com/sekaiacg/erofs-utils): Pre-build `erofs-utils` with erofsfuse enabled~~
+* [StoreLib](https://github.com/StoreDev/StoreLib): API for downloading WSA
+* [Magisk](https://github.com/topjohnwu/Magisk): The most famous root solution on Android
+* ~~[The Open GApps Project](https://opengapps.org): One of the most famous Google Apps packages solution~~
+* [WSA-Kernel-SU](https://github.com/LSPosed/WSA-Kernel-SU) and [kernel-assisted-superuser](https://git.zx2c4.com/kernel-assisted-superuser/): The kernel `su` for debugging Magisk Integration
+* ~~[WSAGAScript](https://github.com/ADeltaX/WSAGAScript): The first GApps integration script for WSA~~
+* ~~[erofs-utils](https://github.com/sekaiacg/erofs-utils): Pre-build `erofs-utils` with erofsfuse enabled~~
+* **KodPixel-X**: Fork maintainer of WSAPackages-MagiskOnWSALocal and custom modifications
 
-_The repository is provided as a utility._
+*The repository is provided as a utility.*
 
-_Android is a trademark of Google LLC. Windows is a trademark of Microsoft Corporation._
+*Android is a trademark of Google LLC. Windows is a trademark of Microsoft Corporation.*
