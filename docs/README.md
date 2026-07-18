@@ -1,5 +1,7 @@
 ## WARNING: WSA on ARM64 may experience crashes or errors.
 
+## WARNING: If you try to patch WSA with KernelSU using this tool, you will encounter an error.
+
 ## Support for generating from these systems
 
 - Linux (x86_64 or arm64)
