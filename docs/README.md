@@ -52,10 +52,10 @@
 2. Clone the repo to local:
 
    ```bash
-   git clone https://github.com/KodPixel-X/WSAPackages-MagiskOnWSALocal.git --depth 1
+   git clone https://github.com/KodPixel-X/KodPixel-X-WSA-MagiskOnWSALocal.git --depth 1
    ```
 
-3. Run `cd WSAPackages-MagiskOnWSALocal`.
+3. Run `cd KodPixel-X-WSA-MagiskOnWSALocal`.
 4. Run `./scripts/run.sh`.
 5. Select the WSA version and its architecture (mostly x64).
 6. Select the version of Magisk.
