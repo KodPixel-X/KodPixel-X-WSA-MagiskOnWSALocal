@@ -18,8 +18,6 @@
 # Copyright (C) 2024 LSPosed Contributors
 #
 
-export KERNEL_VERSION=5.15.167
-
 if [ ! "$BASH_VERSION" ]; then
     echo "Please do not use sh to run this script, just execute it directly" 1>&2
     exit 1
