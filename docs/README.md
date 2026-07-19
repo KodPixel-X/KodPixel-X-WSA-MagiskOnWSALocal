@@ -1,6 +1,6 @@
 ## WARNING: WSA on ARM64 may experience crashes or errors.
 
-## WARNING: If you try to patch WSA with KernelSU using this tool, you will encounter an error.
+## WARNING: If you attempt to patch WSA with KernelSU using this tool, you may encounter a kernel version error with WSL (Windows Subsystem for Linux). Therefore, please perform the process on a real Linux system.
 
 ## Support for generating from these systems
 
