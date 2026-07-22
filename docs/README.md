@@ -49,6 +49,7 @@
 - Automatically activates developers mode in Windows 11
 - Update to the new version while preserving data with a one-click script
 - Merged all language packs
+- Fixed the crash issue for x64.
 
 ## Text Guide
 
