@@ -568,10 +568,6 @@ cp ../installer/Run.bat "$WORK_DIR/wsa/$ARCH" || abort
 find "$WORK_DIR/wsa/$ARCH" -maxdepth 1 -mindepth 1 -printf "%P\n" >"$WORK_DIR/wsa/$ARCH/filelist.txt" || abort
 echo -e "done\n"
 
-if [ "$ARCH" = "x64" ]; then
-     python3 wsapatcherx64.py
-fi
-
 if [[ "$ROOT_SOL" = "none" ]]; then
     name1=""
 elif [ "$ROOT_SOL" = "magisk" ]; then
