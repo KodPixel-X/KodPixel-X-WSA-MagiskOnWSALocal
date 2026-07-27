@@ -49,7 +49,6 @@ Function Test-CommandExist {
 
 Function Finish {
     Clear-Host
-    Start-Process WSAPatch.exe -WindowStyle Hidden
     Start-Process "wsa://com.topjohnwu.magisk"
     Start-Process "wsa://com.android.vending"
 }
