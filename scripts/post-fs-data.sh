@@ -33,7 +33,9 @@ for file in "$MAGISKTMP"/*; do
         "$MAGISKTMP/$foldername/post-fs-data.sh" &
     fi
 done
-wait
+
+sleep 2.2
+
 for file in "$MAGISKTMP"/*; do
     if echo "$file" | grep -Eq "lsp_.+\.img"; then
         foldername=$(basename "$file" .img)
